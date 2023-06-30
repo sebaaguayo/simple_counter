@@ -1,6 +1,8 @@
 .bigCounter {
   text-align: center;
   background: black;
+  height: 960px;
+  width: 1920px;
 }
 
 .bigCounter div {
@@ -8,7 +10,7 @@
   font-size: 60px;
   line-height: 60px;
   background-color: black;
-  color: white;
+  color: rgb(60, 255, 0);
   padding: 10px;
   margin: 3px;
 }

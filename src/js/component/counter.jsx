@@ -8,9 +8,7 @@ function SimpleCounter(props) {
   let thousands = texto[texto.length - 4];
   return (
     <div className="bigCounter">
-      <div className="calendar">
-        <i className="fas fa-clock "></i>
-      </div>
+      <div className="calendar"></div>
       <div className="thousands">{thousands == undefined ? 0 : thousands}</div>
       <div className="hundreds">{hundreds == undefined ? 0 : hundreds}</div>
       <div className="tens">{tens == undefined ? 0 : tens}</div>
